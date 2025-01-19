@@ -1,0 +1,60 @@
+.equipo{
+    width: 100%;
+    padding: 32px;
+    position: relative;
+
+}
+
+.input_color {
+    position: absolute;
+    top: 40px;
+    right: 45px;
+    border: solid 1px #212121; /* Borde externo */
+    appearance: none; /* Elimina el estilo nativo */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none; /* Elimina el borde de enfoque */
+    border-radius: 50%; /* Hace el input completamente circular */
+    width: 50px; /* Ajusta el ancho */
+    height: 50px; /* Ajusta la altura */
+    padding: 0; /* Asegura que no haya espacio interno */
+    box-sizing: border-box; /* Para un tamaño consistente */
+    background-color: transparent; /* Fondo transparente */
+    cursor: pointer;
+}
+
+.input_color::-webkit-color-swatch {
+    width: 100px; /* Ajusta el ancho */
+    height: 100px; /* Ajusta la altura */
+    border: none; /* Elimina el borde interno del recuadro de color */
+    border-radius: 0%;
+    margin-top: -10px; /* Hace la previsualización circular */
+    margin-right: -10px;
+    margin-left:-10px ;
+}
+
+.input_color::-moz-color-swatch {
+    width: 50px; /* Ajusta el ancho */
+    height: 50px; /* Ajusta la altura */
+    border: none; /* Elimina el borde interno del recuadro de color */
+    border-radius: 50%; /* Hace la previsualización circular */
+}
+
+
+
+.equipo h3{
+    font-family: "Prata", serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #212121;
+    margin-bottom: 16px;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.colaboradores{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

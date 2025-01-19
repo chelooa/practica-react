@@ -1,0 +1,21 @@
+.boton{
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: center;
+    background-color: #6278F7;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: we;
+}
+
+.boton:hover{
+    background-color: #4F64D1;
+}
