@@ -15,7 +15,7 @@ const MiOrg = (datosExternos) => {
 
     return <section className="org_section">
         <h3 className="title">Mi organización</h3>
-        <img src="public\img\minimzardos.png" alt="add" onClick={datosExternos.cambiarMostrarDatos}/>
+        <img src="https://raw.githubusercontent.com/chelooa/practica-react/refs/heads/main/public/img/minimzardos.png" alt="add" onClick={datosExternos.cambiarMostrarDatos}/>
 
 
     </section>
